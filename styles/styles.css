@@ -1,4 +1,90 @@
-.background{
-    width: 50px;
-    height: 50px;
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+
+    background-image: url(../assets/jovem-na-barbearia-aparando-cabelo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.login-container {
+    background-color: rgba(0, 0, 0, 0.75); 
+    padding: 30px;
+    border-radius: 12px;
+    width: 350px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.login-container img {
+    width: 215px;
+    margin-bottom: 20px;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 6px;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #d4af37;
+    border: none;
+    border-radius: 6px;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-container button:hover {
+    background-color: #b38e2e;
+}
+
+.extra-links {
+    margin-top: 15px;
+    font-size: 0.9rem;
+}
+
+.extra-links a {
+    color: #d4af37;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.extra-links a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #ccc;
+    width: 100%;
+}
+
+footer a {
+    color: #d4af37;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }

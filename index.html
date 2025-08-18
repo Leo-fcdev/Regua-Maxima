@@ -1,25 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Régua Máxima</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
-    <img class="background" src="./assets/jovem-na-barbearia-aparando-cabelo.jpg" alt="background image">
-    <header></header>
-    <main>
-        <h1 class="title">Login</h1>
-        <input type="email">
-        <input type="password">
-        <button>Entrar</button>
+    <main class="login-container">
+        <section class="login-box">
+            <img class="logo" src="./assets/ilustracao-colorida-de-barbearia-vintage.png" alt="Logo Rm">
+        
+            <h2 class="title">Login</h2>
+            
+            <form>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+
+                <button type="submit" class="btn-login">Entrar</button>
+            </form>
+
+            <div class="extra-links">
+                <a href="#">Esqueci minha senha</a>
+                <span> | </span>
+                <a href="#">Cadastre-se</a>
+            </div>
+        </section>    
     </main>
     <footer>
-        <p>
-            &copy; 2025 Régua Máxima. Todos os direiros reservados. 
-            <a href="#">Termos de uso</a>
-            <a href="#">Política de privacidade</a>
+        <p>&copy; 2025 Régua Máxima<br>
+            <a href="#">Termos de uso</a> |
+            <a href="#">Política de privacidade</a> |
             <a href="#">Suporte</a>
         </p>
     </footer>
