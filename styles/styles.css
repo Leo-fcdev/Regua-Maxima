@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -5,7 +7,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Arial, sans-serif;
+    font-family: "Montserrat", sans-serif;
 
     background-image: url(../assets/jovem-na-barbearia-aparando-cabelo.jpg);
     background-size: cover;
@@ -29,11 +31,12 @@ body {
 }
 
 .login-container h2 {
+    font-size: 35px;
     margin-bottom: 20px;
 }
 
 .login-container input {
-    width: 100%;
+    width: 75%;
     padding: 12px;
     margin: 8px 0;
     border: none;
@@ -41,7 +44,7 @@ body {
 }
 
 .login-container button {
-    width: 100%;
+    width: 50%;
     padding: 12px;
     background-color: #d4af37;
     border: none;
