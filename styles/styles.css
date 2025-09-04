@@ -9,7 +9,7 @@ body {
     align-items: center;
     font-family: "Montserrat", sans-serif;
 
-    background-image: url(../assets/jovem-na-barbearia-aparando-cabelo.jpg);
+    background-image: url(../assets/fundo.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -26,13 +26,14 @@ body {
 }
 
 .login-container img {
-    width: 215px;
-    margin-bottom: 20px;
+    width: 250px;
+    margin-bottom: 5px;
 }
 
 .login-container h2 {
     font-size: 35px;
     margin-bottom: 20px;
+    margin-top: 0;
 }
 
 .login-container input {
@@ -53,6 +54,7 @@ body {
     font-weight: bold;
     cursor: pointer;
     transition: 0.3s;
+    margin-top: 15px;
 }
 
 .login-container button:hover {
